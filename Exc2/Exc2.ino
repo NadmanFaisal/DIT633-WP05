@@ -1,4 +1,8 @@
-// Based on the following tutorial: https://www.instructables.com/Arduino-Timer-Interrupts/
+// (C) Mohamed Taha Jasser, Nadman Faisal, Zahid Hasan, group: 6 (2025)
+// Work package 5
+// Exercise 2
+// Submission code: 871233 (provided by your TA-s)
+
 #include <DHT.h>
 
 // Defined pins for the LEDs

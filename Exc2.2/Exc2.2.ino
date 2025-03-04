@@ -1,7 +1,7 @@
 // (C) Mohamed Taha Jasser, Nadman Faisal, Zahid Hasan, group: 6 (2025)
-// Work package 3
-// Exercise 2
-// Submission code: 482740 (provided by your TA-s)
+// Work package 5
+// Exercise 2.2
+// Submission code: 871233 (provided by your TA-s)
 
 #include <DHT.h>
 
@@ -52,7 +52,10 @@ void readTempAndLight(){
 
 
     photoSen = analogRead(DHT_PHOTOPIN); // storing the photoresistor value
-    perPhoto = map(photoSen, 1023, 143, 0, 100); // mapping the photoresistor value to (0-100)
+    perPhoto = map(photoSen, 1023, 143, 0, 100);  // mapping the photoresistor value to (0-100)
+                                                  // The max and min values of the photoresistor 
+                                                  // sensor is taken manually in first, at a brightly
+                                                  // lit environment, then at a dark environment.
 
   // } 
 }
